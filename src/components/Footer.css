@@ -1,0 +1,67 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+  height: 300px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-shop-hours-container,
+.footer-contact-info-container {
+  margin: 20px 50px;
+  text-align: center;
+}
+
+.footer-shop-hours-container h2,
+.footer-contact-info-container h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-shop-hours-container div,
+.footer-contact-info-container div,
+a {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.footer-copyright {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #999;
+}
+
+/* md */
+@media (max-width: 768px) {
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .footer-container {
+    height: 500px;
+  }
+
+  .footer-contact-container {
+    flex-direction: column;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+}

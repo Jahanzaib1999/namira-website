@@ -1,0 +1,83 @@
+.contact-page-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: azure;
+  font-family: "Montserrat", sans-serif;
+  min-height: 70vh;
+  height: auto;
+  width: 100%;
+}
+
+.contact-message-container {
+  width: 50%;
+  text-align: left;
+  color: black;
+  margin: 20px 100px;
+  contain: content;
+}
+
+.contact-message-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.contact-message-container p {
+  font-size: 1.2rem;
+  max-width: 80%;
+}
+
+.contact-message-container a {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.contact-form-container {
+  width: 50%;
+  text-align: left;
+  color: black;
+  margin: 20px;
+  margin-right: 100px;
+}
+
+/* xl */
+@media (max-width: 1280px) {
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .contact-page-container {
+    flex-direction: column;
+  }
+
+  .contact-message-container {
+    width: 80%;
+    text-align: left;
+    color: black;
+    margin: 20px auto;
+  }
+
+  .contact-form-container {
+    width: 80%;
+    text-align: left;
+    color: black;
+    margin: 20px auto;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .contact-form-container {
+    width: 80%;
+    text-align: left;
+    color: black;
+    margin: 20px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+}

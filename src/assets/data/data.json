@@ -1,0 +1,88 @@
+{
+    "main_page_services":[
+        {
+            "heading":"Haircut and Styling",
+            "description":"Variety of styles to choose from the catalog including Fades, Blunt haircuts, layered cuts and bob haircuts"
+        },
+        {
+            "heading":"Hair Straightening",
+            "description":"Hair straightening using CARLA formula, which is one of the strongest one available."
+        },
+        {
+            "heading":"Hair Dying and Coloring",
+            "description":"Selection of over 40 different colors and shades from the KEUNE catalog."
+        },
+        {
+            "heading":"Facial Treatments",
+            "description":"Give your skin a fresh look and feel. Facial treatment includes facial cleansing, scrubbing and massage. "
+        }
+    ],
+    "all_services":[
+        {
+            "heading":"Haircut",
+            "description":"Basic trimming and shortening hair."
+        },
+        {
+            "heading":"Hairstyling",
+            "description":"Variety of styles to choose from the catalog including Fades, Blunt haircuts, layered cuts and bob haircuts"
+        },
+        {
+            "heading":"Beard Styling",
+            "description":"Beard styling using machine and blade, done according to the style you select."
+        },
+        {
+            "heading":"Hair Coloring",
+            "description":"Over 40 colors to choose from our KEUNE colors collection."
+        },
+        {
+            "heading":"Hair Bleaching",
+            "description":"Premium bleaching service. Partial bleaching and full bleaching."  
+        },
+        {
+            "heading":"Keratin Treatment",
+            "description":"Keratin treatment is one of the most famous hair straightening solutions in the world."
+        },
+        {
+            "heading":"Conditioning Treatments",
+            "description":"Deep cleanse your scalp and hair surface. It also provies a layer or protection to the hair."
+        },
+        {
+            "heading":"Children Haircut",
+            "description":"All ages children are welcome. (children seat available)"
+        },
+        {
+            "heading":"Facial Treatments",
+            "description":"Get rid of dirt from skin pores and revitalizes the skin."
+        },
+        {
+            "heading":"Hair Straightening",
+            "description":"Hair straightening using CARLA formula, which is one of the strongest one available."
+        }
+    ],
+    "branches":[
+        {
+            "id":"1",
+            "name":"Jumeirah Branch",
+            "address":"7b street, Jumeirah 1",
+            "state":"Dubai,UAE",
+            "lat":"25.23553486520052",
+            "lng":"55.26897132207122"
+        },
+        {
+            "id":"2",
+            "name":"Jaffiliya Branch",
+            "address":"13a st, Al-Jaffiliya",
+            "state":"Dubai,UAE",
+            "lat":"25.2422127",
+            "lng":"55.2846505"
+        },
+        {
+            "id":"3",
+            "name":"Satwa Branch",
+            "address":"37A st, Al-Satwa (near Khadri Mosque)",
+            "state":"Dubai,UAE",
+            "lat":"25.2232514",
+            "lng":"55.2717198"
+        }
+    ]
+}

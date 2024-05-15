@@ -1,0 +1,58 @@
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 95%;
+  margin-top: 50px;
+  color: #000;
+  margin: 0px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.service-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  cursor: crosshair;
+}
+
+.service-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.expand-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  position: absolute;
+  right: 0;
+  color: #000;
+}
+
+.service-description {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.service-separator {
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
